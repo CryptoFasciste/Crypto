@@ -1,6 +1,7 @@
 #$1 name
 
 # Create Folder
+mkdir identities 2> /dev/null
 mkdir identities/$1
 
 # Create private key
